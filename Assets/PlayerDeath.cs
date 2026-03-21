@@ -5,16 +5,18 @@ public class PlayerDeath : MonoBehaviour
     public Transform spawnPoint;
 
     Rigidbody rb;
+    playerStat stat;
     bool isRespawning = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        stat = GetComponent<playerStat>();
     }
 
-    void OnCollisionEnter(Collision collision)
+    void Update()
     {
-        if (collision.gameObject.CompareTag("Enemy") && !isRespawning)
+        if (stat.hp <= 0 && !isRespawning)
         {
             Respawn();
         }
@@ -29,6 +31,8 @@ public class PlayerDeath : MonoBehaviour
 
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
+
+        stat.hp = 90;   // รีเลือดใหม่
 
         Invoke(nameof(ResetRespawn), 0.1f);
     }

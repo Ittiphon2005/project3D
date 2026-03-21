@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\New folder\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\My project (1)\\Assets\\CubeMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CubeMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\My project (1)\\Assets\\PlayerDeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerDeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\My project (1)\\Assets\\playerStat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\playerStat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\My project (1)\\Assets\\playerPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\playerPosition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\My project (1)\\Assets\\showHP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\showHP.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\My project (1)\\Assets\\CubeMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CubeMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\New folder\\My project (1)\\Assets\\CameraFollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +42,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "showHP.cs",
+              "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\showHP.cs",
+              "RelativeDocumentMoniker": "Assets\\showHP.cs",
+              "ToolTip": "D:\\New folder\\My project (1)\\Assets\\showHP.cs",
+              "RelativeToolTip": "Assets\\showHP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T22:11:29.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "playerPosition.cs",
+              "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\playerPosition.cs",
+              "RelativeDocumentMoniker": "Assets\\playerPosition.cs",
+              "ToolTip": "D:\\New folder\\My project (1)\\Assets\\playerPosition.cs",
+              "RelativeToolTip": "Assets\\playerPosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T22:01:33.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "playerStat.cs",
+              "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\playerStat.cs",
+              "RelativeDocumentMoniker": "Assets\\playerStat.cs",
+              "ToolTip": "D:\\New folder\\My project (1)\\Assets\\playerStat.cs",
+              "RelativeToolTip": "Assets\\playerStat.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T22:09:10.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FinishLine.cs",
               "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\FinishLine.cs",
               "RelativeDocumentMoniker": "Assets\\FinishLine.cs",
@@ -42,12 +93,11 @@
               "RelativeToolTip": "Assets\\FinishLine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T18:26:23.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T18:26:23.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MouseLook.cs",
               "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\MouseLook.cs",
               "RelativeDocumentMoniker": "Assets\\MouseLook.cs",
@@ -55,12 +105,11 @@
               "RelativeToolTip": "Assets\\MouseLook.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T11:19:02.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T11:19:02.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\CameraFollow.cs",
@@ -68,25 +117,24 @@
               "RelativeToolTip": "Assets\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T10:48:30.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T10:48:30.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerDeath.cs",
               "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\PlayerDeath.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerDeath.cs",
               "ToolTip": "D:\\New folder\\My project (1)\\Assets\\PlayerDeath.cs",
               "RelativeToolTip": "Assets\\PlayerDeath.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T10:44:23.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CubeMove.cs",
               "DocumentMoniker": "D:\\New folder\\My project (1)\\Assets\\CubeMove.cs",
               "RelativeDocumentMoniker": "Assets\\CubeMove.cs",
@@ -94,8 +142,7 @@
               "RelativeToolTip": "Assets\\CubeMove.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAYwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T10:35:29.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T10:35:29.577Z"
             }
           ]
         }
