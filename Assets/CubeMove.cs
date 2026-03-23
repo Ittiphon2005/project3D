@@ -22,10 +22,10 @@ public class CubeMove : MonoBehaviour
 
     void Update()
     {
-        // ตรวจสอบการตกแมพ
+        // ตรวจสอบการตกแมพ: ถ้าต่ำกว่าค่าที่ตั้งไว้ ให้จบเกม
         if (transform.position.y < fallOfMap)
         {
-            playerDeath.Respawn();
+            playerDeath.ShowEndScreen("GAME OVER");
         }
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
@@ -49,40 +49,31 @@ public class CubeMove : MonoBehaviour
 
         Vector3 forward = transform.forward;
         Vector3 right = transform.right;
-
         forward.y = 0;
         right.y = 0;
 
         Vector3 move = (forward * dir.y + right * dir.x).normalized;
 
-        rb.MovePosition(
-            rb.position + move * currentSpeed * Time.fixedDeltaTime
-        );
+        rb.MovePosition(rb.position + move * currentSpeed * Time.fixedDeltaTime);
 
         if (jumpQueued && isGrounded)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
         }
-
         jumpQueued = false;
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-            isGrounded = true;
+        if (collision.gameObject.CompareTag("Ground")) isGrounded = true;
     }
-
     void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-            isGrounded = true;
+        if (collision.gameObject.CompareTag("Ground")) isGrounded = true;
     }
-
     void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-            isGrounded = false;
+        if (collision.gameObject.CompareTag("Ground")) isGrounded = false;
     }
 }
